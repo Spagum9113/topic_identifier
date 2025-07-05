@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.*
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled files
+*.so
+
+# Local test results
+.pytest_cache/
+coverage/
+
+# Pydantic / mypy cache
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# System files
+Thumbs.db
