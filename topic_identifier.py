@@ -33,11 +33,15 @@ async def topic_identifier(slack_message):
     # - Use web search if a URL is present
     # - Output only a concise topic label (no extra explanation)
     prompt = (
-        "You are an AI that can both interpret text and use the web search tool if a URL is provided.\n"
-        "Given the following Slack message, identify the core topic in 1-2 words.\n"
+
+        "You are an AI assistant that can interpret text and use web search if a URL is provided.\n"
+        "Given the following Slack message, identify the 1-3 most general or high-level topics (in 1-2 words each) that best describe the overall content (e.g., 'AI', 'robotics', 'machine learning').\n"
+        "Avoid using specific event or project names (like 'LeRobot'); instead, focus on broader fields or areas.\n"
         "If a URL is included, access the content of the link to inform your answer.\n"
-        "Return ONLY the topic, with no extra explanation.\n\n"
+        "Return ONLY the 1-3 general topics as a comma-separated list, with no extra explanation.\n\n"
         f"Slack message: {slack_message}"
+
+
     )
 
     # Call the OpenAI API asynchronously, requesting topic identification.

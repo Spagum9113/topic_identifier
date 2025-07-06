@@ -2,7 +2,7 @@
 # test_topic_identifier.sh
 # Usage: bash test_topic_identifier.sh
 
-python -c "
+python3 -c "
 import asyncio
 from topic_identifier import topic_identifier
 with open('test.txt') as f:
