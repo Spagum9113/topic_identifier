@@ -1,0 +1,7 @@
+The monthly AI+ML+Robots meet-up is on every second Monday of the month (except July).
+Web-site: https://ai-ml-robots.github.io
+Meet-up group: https://www.meetup.com/ai-ml-robots
+Will be aiming to build upon the LeRobot hack-a-thon momentum and focus on that project for the next few months
+Everyone is very welcome to join in … regardless of experience … aiming to lower the barrier to entry.
+We met to build (bring a laptop) … also, bring a robot if you have one !
+Whilst there is a focus on robotics … a lot of this is applicable to general AI+ML application development. 
